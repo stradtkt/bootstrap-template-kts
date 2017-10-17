@@ -43,7 +43,7 @@ body {
     -moz-background: linear-gradient(125deg, rgba(36,36,36,0.7), rgba(36,36,36, 0.1));
     -ms-background: linear-gradient(125deg, rgba(36,36,36,0.7), rgba(36,36,36, 0.1));
 }
-header#main-header {
+section#header-section {
     background: url('../img/section-background.jpeg') 0 repeat fixed;
     min-height: 960px;
     background-size: cover;
