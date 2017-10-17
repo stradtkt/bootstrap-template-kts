@@ -1,8 +1,8 @@
-@import url("./media/at1440px.css")  only screen and (max-width: 1440px);
-@import url("./media/at320px.css")  only screen and (max-width: 310px);
+
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Damion|Marcellus|Palanquin|Signika');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 
 
@@ -170,10 +170,27 @@ header#main-header {
     margin: 0 auto;
 }
 .form-btn {
+    width: 125px;
+    height: 55px;
     background: #777;
     color: white;
     display: block;
     margin: 0 auto;
+    box-shadow: 3px 3px 7px #222;
+    -webkit-box-shadow: 3px 3px 7px #222;
+    -moz-box-shadow: 3px 3px 7px #222;
+    -ms-box-shadow: 3px 3px 7px #222;
+}
+.form-btn:hover {
+    color: dodgerblue;
+    box-shadow: 1px 1px 1px #000;
+    -webkit-box-shadow: 1px 1px 1px #000;
+    -moz-box-shadow: 1px 1px 1px #000;
+    -ms-box-shadow: 1px 1px 1px #000;
+    background: linear-gradient(125deg, rgba(100,100,100,0.8), rgba(200,200,200,0.1));
+    -webkit-background: linear-gradient(125deg, rgba(100,100,100,0.8), rgba(200,200,200,0.1));
+    -moz-background: linear-gradient(125deg, rgba(100,100,100,0.8), rgba(200,200,200,0.1));
+    -ms-background: linear-gradient(125deg, rgba(100,100,100,0.8), rgba(200,200,200,0.1));
 }
 .form {
     padding: 50px;
@@ -186,7 +203,45 @@ header#main-header {
     -webkit-box-shadow: 4px 4px 10px rgba(36,36,36,0.8);
     -moz-box-shadow: 4px 4px 10px rgba(36,36,36,0.8);
     -ms-box-shadow: 4px 4px 10px rgba(36,36,36,0.8);
+    font-size: 23px;
+    font-weight: 700;
+    padding: 10px 0;
 }
+.contact-container textarea[placeholder="Enter your message"],
+.contact-container input[placeholder="Enter your subject"],
+.contact-container input[placeholder="Enter your email"],
+.contact-container input[placeholder="Enter your name"] {
+    padding-left: 10px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    opacity: 1;
+}
+.contact-container textarea[placeholder="Enter your message"]::-webkit-placeholder,
+.contact-container input[placeholder="Enter your subject"]::-webkit-placeholder,
+.contact-container input[placeholder="Enter your email"]::-webkit-placeholder,
+.contact-container input[placeholder="Enter your name"]::-webkit-placeholder {
+    padding-left: 10px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    opacity: 1;
+}
+.contact-container textarea[placeholder="Enter your message"]::-moz-placeholder,
+.contact-container input[placeholder="Enter your subject"]::-webkit-placeholder,
+.contact-container input[placeholder="Enter your email"]::-webkit-placeholder,
+.contact-container input[placeholder="Enter your name"]::-webkit-placeholder {
+    padding-left: 10px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    opacity: 1;
+}
+
+
 
 
 /*Plans*/
