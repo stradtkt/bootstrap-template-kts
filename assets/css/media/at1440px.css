@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1440px) {
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 1440px;
+    }
+    #main-header {
+        width: 1440px !important;
+    }
+    section {
+        height: 100%;
+        width: 1410px !important;
+    }
+}

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 310px) {
+    body {
+        height: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    #main-header {
+        width: 310px !important;
+    }
+    section#header-section {
+        width: auto;
+        height: 100%;
+    }
+
+}

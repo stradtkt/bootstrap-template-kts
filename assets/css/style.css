@@ -1,0 +1,263 @@
+@import url("./media/at1440px.css")  only screen and (max-width: 1440px);
+@import url("./media/at320px.css")  only screen and (max-width: 310px);
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Damion|Marcellus|Palanquin|Signika');
+
+
+
+
+
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #f4f4f4;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    color: white;
+}
+.navbar-brand:hover,
+.navbar-nav li a:hover {
+    color: dodgerblue;
+    transition: 0.35s ease-in-out;
+}
+.nav-item {
+    padding: 0 20px;
+    font-family: 'Signika', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar-brand {
+    font-family: 'Damion', cursive;
+    font-size: 20px;
+    font-weight: 100;
+}
+.navbar {
+    background: linear-gradient(125deg, rgba(36,36,36,0.7), rgba(36,36,36, 0.1));
+    -webkit-background: linear-gradient(125deg, rgba(36,36,36,0.7), rgba(36,36,36, 0.1));
+    -moz-background: linear-gradient(125deg, rgba(36,36,36,0.7), rgba(36,36,36, 0.1));
+    -ms-background: linear-gradient(125deg, rgba(36,36,36,0.7), rgba(36,36,36, 0.1));
+}
+header#main-header {
+    background: url('../img/section-background.jpeg') 0 repeat fixed;
+    min-height: 960px;
+    background-size: cover;
+   background-color: rgba(0,0,0,0.6);
+   background-blend-mode: color;
+}
+#second-section {
+    background: url('../img/grey-pattern-background.jpeg') 0 repeat fixed;
+    background-size: cover;
+    min-height: 450px;
+}
+#fourth-section {
+    background: url('../img/grey-pattern-background.jpeg') 0 repeat fixed;
+    background-size: cover;
+    min-height: 450px;
+}
+#sixth-section {
+    background: url('../img/grey-pattern-background.jpeg') 0 repeat fixed;
+    background-size: cover;
+    min-height: 450px;
+}
+#ninth-section {
+    background: url('../img/grey-pattern-background.jpeg') 0 repeat fixed;
+    background-size: cover;
+    min-height: 450px;
+}
+#header-btn-buy,
+#header-btn-view {
+    background: rgba(10,10,10,0.8);
+    color:  #f4f4f4;
+    display: inline;
+    margin: 0 auto;
+    border: 1px solid silver;
+    position: relative;
+    left: 480px;
+    top: 380px;
+}
+#header-btn-buy:hover,
+#header-btn-view:hover {
+    transition: 0.35s ease-in-out;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    background: linear-gradient(125deg, rgba(200,200,200,0.5), rgba(100,100,100,0.5));
+    -webkit-background: linear-gradient(125deg, rgba(200,200,200,0.5), rgba(100,100,100,0.5));
+    -moz-background: linear-gradient(125deg, rgba(200,200,200,0.5), rgba(100,100,100,0.5));
+    -ms-background: linear-gradient(125deg, rgba(200,200,200,0.5), rgba(100,100,100,0.5));
+}
+.header-h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    position: relative;
+    top: 350px;
+    left: 35px;
+    font-family: 'Signika', sans-serif;
+}
+
+#first-section {
+    padding: 70px 0;
+}
+#eighth-section h1,
+#seventh-section h1,
+#fifth-section h1,
+#first-section h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+#eighth-section h1,
+#seventh-section h1,
+#fifth-section h1 {
+    position: relative;
+    top: 50px;
+}
+.first-section-img {
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+    margin: 0 10%;
+}
+.icon-svg {
+    width: 250px;
+    height: 200px;
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+}
+.svg-h1-p-1 {
+    right: 45px;
+    top: 35px;
+}
+.svg-h1-p-2 {
+    top: 35px;
+}
+.svg-h1-p-3 {
+    left: 45px;
+    top: 35px;
+}
+.svg-h1-p-4 {
+    right: 45px;
+    top: 35px;
+}
+.svg-h1-p-5 {
+    top: 35px;
+}
+.svg-h1-p-6 {
+    left: 45px;
+    top: 35px;
+}
+#third-section h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0;
+    position: relative;
+    top: 30px;
+}
+#third-section {
+    height: 1300px;
+}
+.contact-container {
+    padding: 70px 0;
+    margin: 0 auto;
+}
+.form-btn {
+    background: #777;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.form {
+    padding: 50px;
+    width: 100%;
+    display: inline-block;
+}
+.contact-container textarea,
+.contact-container input {
+    box-shadow: 4px 4px 10px rgba(36,36,36,0.8);
+    -webkit-box-shadow: 4px 4px 10px rgba(36,36,36,0.8);
+    -moz-box-shadow: 4px 4px 10px rgba(36,36,36,0.8);
+    -ms-box-shadow: 4px 4px 10px rgba(36,36,36,0.8);
+}
+
+
+/*Plans*/
+
+.plan-container {
+    padding: 50px 0 75px 0;
+}
+
+table tbody tr td {
+    font-family: 'Palanquin', sans-serif !important;
+}
+table {
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.modal-content {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    right: 150px;
+}
+ h5.modal-title {
+    text-align: center !important;
+    display: block !important;
+    margin: 0 auto !important;
+    font-family: 'Marcellus', serif !important;
+    font-size: 26px;
+
+}
+.modal-title {
+    text-align: center;
+}
+.modal-body .container ol {
+    list-style: inside;
+    text-align: center;
+    color: green;
+    font-family: 'Palanquin', sans-serif;
+}
+.modal-body .container ol li {
+    font-family: 'Palanquin', sans-serif !important;
+    font-size: 22px;
+}
+.btn-success {
+    position: relative;
+    top: 50px;
+}
+.carousel-item img {
+    width: 700px;
+    height: 400px;
+}
+#carouselExampleIndicators {
+    display: inline-block;
+    margin: 10% 0;
+}
+.fa-plane {
+    color: dodgerblue;
+}
+.fa-question-circle {
+    color: darkorange;
+}
+.fa-shopping-basket {
+    color: rgba(215, 179, 22, 0.59);
+}
+.fa-users {
+    color: steelblue;
+}
+.fa-id-card {
+    color: rgb(185, 52, 88);
+}
+.fa-university {
+    color: rgb(78, 83, 93);
+}
