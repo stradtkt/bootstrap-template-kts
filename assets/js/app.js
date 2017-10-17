@@ -55,4 +55,9 @@ $('a[href="#seventh-section"]').click(function() {
 		scrollTop: $('section[id="seventh-section"]').offset().top},
 		'slow');
 });
+$('a[href="#eighth-section"]').click(function() {
+	$('html,body').animate({
+		scrollTop: $('section[id="eighth-section"]').offset().top},
+		'slow');
+});
 });
