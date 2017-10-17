@@ -7,7 +7,7 @@
             </div>
             <div class="btn-container">
             <a href="#first-section" id="header-btn-view" class="btn btn-lg">View More</a>
-            <a href="#" id="header-btn-buy" class="btn btn-lg">Buy Theme</a>
+            <a href="./buy-now.php" id="header-btn-buy" class="btn btn-lg">Buy Theme</a>
             </div>
         </div>
     </div>
